@@ -4,7 +4,7 @@
 
 An Android-first Flutter toolkit for turning document photos into reviewed text and PDFs.
 
-**Status: 0.1.0-dev.1 prerelease candidate.** The API may change. Local analysis, tests and debug builds are checked; this is not a production-certified scanner. This project is not published to pub.dev.
+**Status: experimental prerelease (0.1.0-dev.1).** The API may change. Local analysis, tests and debug builds are checked; this is not a production-certified scanner.
 
 ## What it does
 
@@ -33,15 +33,16 @@ flutter run
 
 Use `example/test_documents/sample_receipt.png` for your first test. It contains synthetic data. Capture/import an image, crop and rotate, preview, then recognize. Tap a line to correct it. Choose Text document or Original scan, then Save in app, Preview PDF or Share PDF.
 
-## Use the package locally
+## Install
 
-Until the public package is available, clone/download this repository and add a path dependency in your application's pubspec:
+Add the prerelease explicitly to your application's pubspec:
 
 ```yaml
 dependencies:
-  flutter_doc_capture_kit:
-    path: ../flutter_doc_capture_kit
+  flutter_doc_capture_kit: 0.1.0-dev.1
 ```
+
+Then run `flutter pub get`. To develop against this repository instead, use a local path dependency pointing to your checkout.
 
 Set your Android application's minimum SDK to 24. Follow the camera/gallery setup requirements of the picker you choose; importing images and saving/sharing files are responsibilities of your application, not the core package.
 
