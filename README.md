@@ -1,5 +1,7 @@
 # Flutter Doc Capture Kit
 
+[![Flutter checks](https://github.com/yaseenpv01/flutter_doc_capture_kit/actions/workflows/ci.yml/badge.svg)](https://github.com/yaseenpv01/flutter_doc_capture_kit/actions/workflows/ci.yml)
+
 An Android-first Flutter toolkit for turning document photos into reviewed text and PDFs.
 
 **Status: 0.1.0-dev.1 prerelease candidate.** The API may change. Local analysis, tests and debug builds are checked; this is not a production-certified scanner. This project is not published to pub.dev.
@@ -113,7 +115,7 @@ flutter test
 flutter build apk --debug
 ```
 
-GitHub Actions is configured to run formatting, analysis, tests and an Android debug build. It has not run remotely yet. See [CONTRIBUTING.md](CONTRIBUTING.md), [device checks](doc/DEVICE_CHECKLIST.md) and [release guide](doc/release/RELEASE_CHECKLIST.md).
+GitHub Actions is configured to run formatting, analysis, tests and an Android debug build. See the linked workflow for the latest results. See [CONTRIBUTING.md](CONTRIBUTING.md), [device checks](doc/DEVICE_CHECKLIST.md) and [release guide](doc/release/RELEASE_CHECKLIST.md).
 
 ## Roadmap
 

@@ -18,7 +18,7 @@
 7. Review the release notes. Publish only when explicitly ready; preparation and a dry run do not upload a package.
 8. Create the prerelease tag/release and publish to pub.dev using the owner's account if requested.
 
-The public source repository is prepared for upload. No pub.dev publishing command without `--dry-run` has been run. The connected GitHub account is verified; a pub.dev publishing account has not been configured by this task.
+The source is public at https://github.com/yaseenpv01/flutter_doc_capture_kit. No pub.dev publishing command without `--dry-run` has been run. The connected GitHub account is verified; a pub.dev publishing account has not been configured by this task.
 
 ## References
 
