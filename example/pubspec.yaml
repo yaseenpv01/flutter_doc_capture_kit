@@ -1,0 +1,25 @@
+name: document_capture_example
+description: Android demo for Flutter Doc Capture Kit.
+publish_to: none
+version: 0.0.3+3
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.2.4
+  path_provider: ^2.1.6
+  printing: ^5.14.3
+  image: ^4.10.1
+  flutter_doc_capture_kit:
+    path: ..
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
